@@ -1,24 +1,29 @@
 <!DOCTYPE html>
-<html>
+
+<!--
+  portfolYOU Jekyll theme by Youssef Raafat
+  Free for personal and commercial use under the MIT license
+  https://github.com/YoussefRaafatNasry/portfolYOU
+-->
+
+<html lang="en" class="h-100">
+
 {% include head.html %}
 
-<body id="page-top" class="index">
-  {% include nav.html %}
-  {% include header.html %}
-  {% include portfolio_grid.html %}
-  {% include about.html %}
+<body class="h-100 d-flex flex-column">
 
-  {% if site.contact == "static" %}
-  {% include contact_static.html %}
-  {% elsif site.contact == "disqus" %}
-  {% include contact_disqus.html %}
-  {% else %}
-  {% include contact.html %}
-  {% endif %}
-
+  <main class="flex-shrink-0 container mt-5">
+    {% include navbar.html %}
+    {{ content }}
+  </main>
   {% include footer.html %}
-  {% include modals.html %}
-  {% include js.html %}
+
+  {% include analytics.html %}
+  {% include scripts.html %}
+
+  {%- if site.buymeacoffee.enabled == true -%}
+    <script data-name="BMC-Widget" data-cfasync="false" src="https://cdnjs.buymeacoffee.com/1.0.0/widget.prod.min.js" data-id="{{ site.buymeacoffee.username }}" data-description="{{ site.buymeacoffee.description }}" data-message="{{ site.buymeacoffee.message }}" data-color="{{ site.buymeacoffee.color }}" data-position="Right" data-x_margin="16" data-y_margin="16"></script>
+  {%- endif -%}
 </body>
 
 </html>
