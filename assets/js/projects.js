@@ -21,8 +21,8 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
-            title: 'Wall-E',
+            link: 'https://github.com/alrice12/Bm-Bcall-Detector/wiki',
+            title: 'Blue whale',
             demo: 'http://wall-e-jekyll.github.io/',
             technologies: ['Semantic UI', 'Jekyll'],
             description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
