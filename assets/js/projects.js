@@ -21,8 +21,8 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/20Hz.jpg',
-            link: 'hhttps://github.com/alrice12/Bp-20Hz-Detector/wiki',
-            title: 'Fin whale call detector',
+            link: 'https://github.com/alrice12/Bp-20Hz-Detector/wiki',
+            title: 'Fin whale energy detector',
             demo: false,
             technologies: ['MATLAB', 'Markdown', 'GitHub'],
             description: "A guide for running custom MATLAB algorithms to automatically detect fin whale acoustic energy in recordings.",
@@ -48,7 +48,7 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/social-share-count.jpeg',
-            link: 'hhttps://drive.google.com/file/d/1amxpWauSb1q3nVLW3jCDppqCevEQ4Zjt/view?usp=sharing',
+            link: 'https://drive.google.com/file/d/1amxpWauSb1q3nVLW3jCDppqCevEQ4Zjt/view?usp=sharing',
             title: 'Oceanographic Mooring',
             demo: false,
             technologies: ['Adobe Illustrator'],
