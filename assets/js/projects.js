@@ -12,20 +12,20 @@ let render_projects = (slug) => {
     let projects_obj = [
         {
             image: 'assets/images/mentors.jpg',
-            link: 'https://github.com/abhn/Mporter',
-            title: 'Mporter',
-            demo: 'https://mporter.co',
-            technologies: ['Flask', 'Celery', 'Python'],
-            description: "Flask web application for easy reporting updates to one's mentor. Multi-user support, easy to deploy and use.",
+            link: 'https://github.com/alrice12/Bm-Bcall-Detector/wiki',
+            title: 'Blue Whale call Detector',
+            demo: false,
+            technologies: ['MATLAB', 'Markdown'],
+            description: "Wiki page for using cutsom MATLAB algorithms to automatically detect blue whale calls in acoustic data.",
             categories: ['featured', 'webdev']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
-            link: 'https://github.com/abhn/Wall-E',
-            title: 'Wall-E',
-            demo: 'http://wall-e-jekyll.github.io/',
-            technologies: ['Semantic UI', 'Jekyll'],
-            description: "A modern Jekyll theme with grid frontpage, beautiful typography, mobile responsive, made with Semantic UI.",
+            link: 'https://github.com/alrice12/Bp-20Hz-Detector/wiki',
+            title: 'Fin whale call detector',
+            demo: 'false,
+            technologies: ['MATLAB', 'Markdown'],
+            description: "Wiki page for using cutsom MATLAB algorithms to automatically detect fin whale calls in acoustic data.",
             categories: ['featured', 'webdev']
         },
         {
