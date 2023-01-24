@@ -44,7 +44,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['MATLAB'],
             description: "End-user documentation of a web UI for interacting with data stored on a remote database.",
-            categories: ['featured', 'how-to']
+            categories: ['how-to']
         },
         {
             image: 'assets/images/social-share-count.jpeg',
