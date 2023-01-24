@@ -13,20 +13,20 @@ let render_projects = (slug) => {
         {
             image: 'assets/images/mentors.jpg',
             link: 'https://github.com/alrice12/Bm-Bcall-Detector/wiki',
-            title: 'Blue Whale call Detector',
+            title: 'Blue Whale',
             demo: false,
             technologies: ['MATLAB', 'Markdown'],
             description: "Wiki page for using cutsom MATLAB algorithms to automatically detect blue whale calls in acoustic data.",
-            categories: ['featured', 'webdev']
+            categories: ['featured', 'how-to']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
             link: 'https://github.com/alrice12/Bp-20Hz-Detector/wiki',
-            title: 'Fin whale call detector',
+            title: 'Fin whale',
             demo: 'false,
             technologies: ['MATLAB', 'Markdown'],
             description: "Wiki page for using cutsom MATLAB algorithms to automatically detect fin whale calls in acoustic data.",
-            categories: ['featured', 'webdev']
+            categories: ['how-to']
         },
         {
             image: 'assets/images/collage.jpg',
