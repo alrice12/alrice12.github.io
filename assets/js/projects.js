@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['MATLAB', 'Markdown'],
             description: "A guide for running custom MATLAB algorithms to automatically detect blue whale B calls in acoustic data.",
-            categories: ['featured', 'webdev']
+            categories: ['featured', 'how-to']
         },
         {
             image: 'assets/images/mobile-landscape.jpg',
@@ -26,7 +26,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['MATLAB', 'Markdown'],
             description: "A guide for running custom MATLAB algorithms to automatically detect fin whale 20 Hz calls in acoustic data.",
-            categories: ['featured', 'webdev']
+            categories: ['featured', 'how-to']
         },
         {
             image: 'assets/images/collage.jpg',
