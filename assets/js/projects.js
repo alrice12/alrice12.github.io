@@ -15,7 +15,7 @@ let render_projects = (slug) => {
             link: 'https://github.com/alrice12/Bm-Bcall-Detector/wiki',
             title: 'Blue whale call detector',
             demo: false,
-            technologies: ['Flask', 'Celery', 'Python'],
+            technologies: ['MATLAB', 'Markdown'],
             description: "A guide for running custom MATLAB algorithms to automatically detect blue whale B calls in acoustic data.",
             categories: ['featured', 'webdev']
         },
@@ -24,7 +24,7 @@ let render_projects = (slug) => {
             link: 'hhttps://github.com/alrice12/Bp-20Hz-Detector/wiki',
             title: 'Fin whale call detector',
             demo: false,
-            technologies: ['Semantic UI', 'Jekyll'],
+            technologies: ['MATLAB', 'Markdown'],
             description: "A guide for running custom MATLAB algorithms to automatically detect fin whale 20 Hz calls in acoustic data.",
             categories: ['featured', 'webdev']
         },
