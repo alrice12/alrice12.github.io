@@ -11,7 +11,7 @@ let render_projects = (slug) => {
 
     let projects_obj = [
         {
-            image: 'assets/images/mentors.jpg',
+            image: 'assets/images/B call.jpg',
             link: 'https://github.com/alrice12/Bm-Bcall-Detector/wiki',
             title: 'Blue whale call detector',
             demo: false,
@@ -20,7 +20,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'how-to']
         },
         {
-            image: 'assets/images/mobile-landscape.jpg',
+            image: 'assets/images/20Hz.jpg',
             link: 'hhttps://github.com/alrice12/Bp-20Hz-Detector/wiki',
             title: 'Fin whale call detector',
             demo: false,
