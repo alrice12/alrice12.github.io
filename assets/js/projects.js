@@ -14,7 +14,7 @@ let render_projects = (slug) => {
             image: 'assets/images/mentors.jpg',
             link: 'https://github.com/alrice12/Bm-Bcall-Detector/wiki',
             title: 'Blue whale call detector',
-            demo: 'https://mporter.co',
+            demo: false,
             technologies: ['Flask', 'Celery', 'Python'],
             description: "A guide for running custom MATLAB algorithms to automatically detect blue whale B calls in acoustic data.",
             categories: ['featured', 'webdev']
@@ -23,7 +23,7 @@ let render_projects = (slug) => {
             image: 'assets/images/mobile-landscape.jpg',
             link: 'hhttps://github.com/alrice12/Bp-20Hz-Detector/wiki',
             title: 'Fin whale call detector',
-            demo: 'http://wall-e-jekyll.github.io/',
+            demo: false,
             technologies: ['Semantic UI', 'Jekyll'],
             description: "A guide for running custom MATLAB algorithms to automatically detect fin whale 20 Hz calls in acoustic data.",
             categories: ['featured', 'webdev']
