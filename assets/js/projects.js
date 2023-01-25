@@ -29,7 +29,7 @@ let render_projects = (slug) => {
             categories: ['how-to']
         },
         {
-            image: 'assets/images/collage.jpg',
+            image: 'assets/images/Tethys.png',
             link: 'https://drive.google.com/file/d/1ZoZIuTDWSIbhS-449Xq7NZuiCqIX5G8I/view?usp=sharing',
             title: 'Tethys-MATLAB Interface Guide',
             demo: false,
@@ -38,7 +38,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'how-to']
         },
         {
-            image: 'assets/images/mpw.jpg',
+            image: 'assets/images/Deployments_Tab.jpg',
             link: 'https://drive.google.com/file/d/1HqJEKqysmq9QB6GFwD3wIoa5MXqCp0WZ/view?usp=sharing',
             title: 'Tethys Data Explorer',
             demo: false,
@@ -47,7 +47,7 @@ let render_projects = (slug) => {
             categories: ['how-to']
         },
         {
-            image: 'assets/images/social-share-count.jpeg',
+            image: 'assets/images/Mooring.jpg',
             link: 'https://drive.google.com/file/d/1amxpWauSb1q3nVLW3jCDppqCevEQ4Zjt/view?usp=sharing',
             title: 'Oceanographic Mooring',
             demo: false,
@@ -56,7 +56,7 @@ let render_projects = (slug) => {
             categories: ['figures']
         },
         {
-            image: 'assets/images/data-destroyer.png',
+            image: 'assets/images/4-chan.jpg',
             link: 'https://drive.google.com/file/d/17T5Q7ehrjQHFXFoEJvpwGwg96Gjdi8Nm/view?usp=sharing',
             title: '4-channel Hydrophone Array',
             demo: false,
@@ -65,7 +65,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'figures']
         },
         {
-            image: 'assets/images/raspberry-pi-monitor.png',
+            image: 'assets/images/IRWIN.png',
             link: 'https://drive.google.com/file/d/1DF8XcbinD3WLelkBL2t7YtUYu6q6HnYJ/view?usp=sharing',
             title: 'Environmental Monitoring of Offshore Wind Farms',
             demo: false,
@@ -74,7 +74,7 @@ let render_projects = (slug) => {
             categories: ['proposals']
         },
         {
-            image: 'assets/images/s3scan.png',
+            image: 'assets/images/OoRep2.jpg',
             link: 'https://www.cetus.ucsd.edu/docs/reports/MPLTM660-2022.pdf',
             title: 'Report for US Navy on killer whales in the Gulf of Alaska',
             demo: false,
@@ -83,7 +83,7 @@ let render_projects = (slug) => {
             categories: ['publications']
         },
         {
-            image: 'assets/images/elementary.png',
+            image: 'assets/images/SOCALRep2.jpg',
             link: 'https://www.cetus.ucsd.edu/docs/reports/MPLTM657-2022.pdf',
             title: 'Report for US Navy on marine mammals in Southern California',
             demo: false,
@@ -92,7 +92,7 @@ let render_projects = (slug) => {
             categories: ['featured', 'publications']
         },
         {
-            image: 'assets/images/soot-spirits.png',
+            image: 'assets/images/Bm-paper.jpg',
             link: 'https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0266469',
             title: 'Paper on decline in blue whale call frequency',
             demo: false,
@@ -101,7 +101,7 @@ let render_projects = (slug) => {
             categories: ['publications']
         },
         {
-            image: 'assets/images/python-chat.png',
+            image: 'assets/images/WA-paper.jpg',
             link: 'https://link.springer.com/article/10.1007/s00227-021-03941-9',
             title: 'Paper on marine mammal distribution offshore of Washington',
             demo: false,
@@ -110,7 +110,7 @@ let render_projects = (slug) => {
             categories: ['publications']
         },
         {
-            image: 'assets/images/old-lcd.jpg',
+            image: 'assets/images/GOA-paper.jpg',
             link: 'https://link.springer.com/article/10.1007/s00227-021-03884-1',
             title: 'Paper on marine mammal distribution in the Gulf of Alaska',
             demo: false,
@@ -119,7 +119,7 @@ let render_projects = (slug) => {
             categories: ['publications']
         },
         {
-            image: 'assets/images/nextcloud-enc.png',
+            image: 'assets/images/KW-paper.jpg',
             link: 'https://www.int-res.com/abstracts/meps/v572/p255-268/',
             title: 'Paper on occurrence of killer whales offshore of Washington',
             demo: false,
@@ -128,7 +128,7 @@ let render_projects = (slug) => {
             categories: ['publications']
         },
         {
-            image: 'assets/images/google-cloud-backup.png',
+            image: 'assets/images/figures.jpg',
             link: 'https://drive.google.com/file/d/1wsnIsyl1e9gOkaIDrE9A3c9f-XbHX9tz/view?usp=sharing',
             title: 'Selected Scientific Figures',
             demo: false,
