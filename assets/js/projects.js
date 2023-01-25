@@ -128,7 +128,7 @@ let render_projects = (slug) => {
             categories: ['publications']
         },
         {
-            image: 'assets/images/figures.jpg',
+            image: 'assets/images/figures.png',
             link: 'https://drive.google.com/file/d/1wsnIsyl1e9gOkaIDrE9A3c9f-XbHX9tz/view?usp=sharing',
             title: 'Selected Scientific Figures',
             demo: false,
