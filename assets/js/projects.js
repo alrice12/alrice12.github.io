@@ -146,25 +146,25 @@ let render_projects = (slug) => {
             categories: ['featured']
         },
         {
-            image: 'MHP.png',
+            image: 'assets/images/MHP.png',
             link: 'https://docs.aryaka.com/space/KNOW/136773659/Getting+Started+with+Aryaka+Unified+SASE+as+a+Service',
             title: 'SASE getting started guide',
             demo: false,
             technologies: ['Confluence'],
             description: "An end-user guide for getting started with Aryaka's security offering.",
-            categories: ['n&s', 'featured']
+            categories: ['sec', 'featured']
         },
         {
-            image: 'MHP.png',
+            image: 'assets/images/MHP.png',
             link: 'https://docs.aryaka.com/space/KNOW/31031569/Configure+a+Secure+Web+Gateway+policy+template',
             title: 'Configure a SWG policy template',
             demo: false,
             technologies: ['Confluence'],
             description: "An end-user guide for configuring a Secure Web Gateway policy template in MyAryaka.",
-            categories: ['n&s']
+            categories: ['sec']
         },
         {
-            image: 'aryakadocs.png',
+            image: 'assets/images/aryakadocs.png',
             link: 'https://docs.aryaka.com/space/TBW/8192076/ANAP+Insertion+Topology',
             title: 'ANAP Insertion Topology',
             demo: false,
@@ -173,16 +173,16 @@ let render_projects = (slug) => {
             categories: ['hardware','featured']
         },
         {
-            image: 'aryakadocs.png',
+            image: 'assets/images/aryakadocs.png',
             link: 'https://docs.aryaka.com/space/TBW/37027887/NGFW-SWG',
             title: 'NGFW-SWG technical brief',
             demo: false,
             technologies: ['Confluence'],
             description: "A technical deep dive on Aryaka's Next Generation Firewall - Secure Web Gateway offering.",
-            categories: ['n&s']
+            categories: ['sec']
         },
         {
-            image: 'microCAT.png',
+            image: 'assets/images/microCAT.png',
             link: 'https://drive.google.com/file/d/16BFjiOCrwePjDJTjuMW3QOhPto2fkcy1/view?usp=sharing',
             title: 'Sea-Bird MicroCAT deployment guide',
             demo: false,
