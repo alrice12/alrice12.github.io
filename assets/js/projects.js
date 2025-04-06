@@ -17,7 +17,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['MATLAB', 'Markdown', 'GitHub'],
             description: "A guide for running custom MATLAB algorithms to automatically detect blue whale B calls in acoustic data.",
-            categories: ['featured', 'how-to']
+            categories: ['software']
         },
         {
             image: 'assets/images/20Hz.jpg',
@@ -26,7 +26,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['MATLAB', 'Markdown', 'GitHub'],
             description: "A guide for running custom MATLAB algorithms to automatically detect fin whale acoustic energy in recordings.",
-            categories: ['how-to']
+            categories: ['software']
         },
         {
             image: 'assets/images/Tethys.png',
@@ -35,7 +35,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['MATLAB'],
             description: "Documentation for interfacing with the Tethys database via MATLAB. Includes instructions for set-up, formulating a query, and a list of functions with descriptions.",
-            categories: ['featured', 'how-to']
+            categories: ['featured', 'software']
         },
         {
             image: 'assets/images/Deployments_Tab.JPG',
@@ -44,7 +44,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: ['MATLAB'],
             description: "End-user documentation of a web UI for interacting with data stored on a remote database.",
-            categories: ['how-to']
+            categories: ['software']
         },
         {
             image: 'assets/images/Mooring.JPG',
@@ -89,7 +89,7 @@ let render_projects = (slug) => {
             demo: false,
             technologies: [],
             description: "An annual report on acoustic and visual detections of marine mammals in Southern California.",
-            categories: ['featured', 'publications']
+            categories: ['publications']
         },
         {
             image: 'assets/images/Bm-paper.JPG',
@@ -135,6 +135,60 @@ let render_projects = (slug) => {
             technologies: ['MATLAB', 'Adobe Illustrator'],
             description: "Four figures created for scientific publications.",
             categories: ['figures']
+        },
+        {
+            image: '',
+            link: '',
+            title: 'Confluence migration',
+            demo: false,
+            technologies: ['Confluence', 'Refined'],
+            description: "==============.",
+            categories: ['featured']
+        },
+        {
+            image: 'MHP.png',
+            link: 'https://docs.aryaka.com/space/KNOW/136773659/Getting+Started+with+Aryaka+Unified+SASE+as+a+Service',
+            title: 'SASE getting started guide',
+            demo: false,
+            technologies: ['Confluence'],
+            description: "An end-user guide for getting started with Aryaka's security offering.",
+            categories: ['n&s', 'featured']
+        },
+        {
+            image: 'MHP.png',
+            link: 'https://docs.aryaka.com/space/KNOW/31031569/Configure+a+Secure+Web+Gateway+policy+template',
+            title: 'Configure a SWG policy template',
+            demo: false,
+            technologies: ['Confluence'],
+            description: "An end-user guide for configuring a Secure Web Gateway policy template in MyAryaka.",
+            categories: ['n&s']
+        },
+        {
+            image: 'aryakadocs.png',
+            link: 'https://docs.aryaka.com/space/TBW/8192076/ANAP+Insertion+Topology',
+            title: 'ANAP Insertion Topology',
+            demo: false,
+            technologies: ['Confluence'],
+            description: "A guide to install and deploy an Aryaka Network Access Point device.",
+            categories: ['hardware','featured']
+        },
+        {
+            image: 'aryakadocs.png',
+            link: 'https://docs.aryaka.com/space/TBW/37027887/NGFW-SWG',
+            title: 'NGFW-SWG technical brief',
+            demo: false,
+            technologies: ['Confluence'],
+            description: "A technical deep dive on Aryaka's Next Generation Firewall - Secure Web Gateway offering.",
+            categories: ['n&s']
+        },
+        {
+            image: 'microCAT.png',
+            link: 'https://drive.google.com/file/d/16BFjiOCrwePjDJTjuMW3QOhPto2fkcy1/view?usp=sharing',
+            title: 'Sea-Bird MicroCAT deployment guide',
+            demo: false,
+            technologies: [],
+            description: "A guide for deploying a Seabird Scientific MicroCAT (an oceanographic instrument used to measure temperature and salinity).",
+            categories: ['hardware']
         },
     ]
 
