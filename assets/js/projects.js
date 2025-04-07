@@ -137,15 +137,6 @@ let render_projects = (slug) => {
             categories: ['figures']
         },
         {
-            image: '',
-            link: '',
-            title: 'Confluence migration',
-            demo: false,
-            technologies: ['Confluence', 'Refined'],
-            description: "==============.",
-            categories: ['featured']
-        },
-        {
             image: 'assets/images/MHP.png',
             link: 'https://docs.aryaka.com/space/KNOW/136773659/Getting+Started+with+Aryaka+Unified+SASE+as+a+Service',
             title: 'SASE getting started guide',
