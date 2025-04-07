@@ -10,6 +10,51 @@ let render_projects = (slug) => {
     $(`#${slug}`).addClass('white-button-hover');
 
     let projects_obj = [
+         {
+            image: 'assets/images/MHP.png',
+            link: 'https://docs.aryaka.com/space/KNOW/136773659/Getting+Started+with+Aryaka+Unified+SASE+as+a+Service',
+            title: 'SASE getting started guide',
+            demo: false,
+            technologies: ['Confluence'],
+            description: "An end-user guide for getting started with Aryaka's security offering.",
+            categories: ['sec', 'featured']
+        },
+        {
+            image: 'assets/images/MHP.png',
+            link: 'https://docs.aryaka.com/space/KNOW/31031569/Configure+a+Secure+Web+Gateway+policy+template',
+            title: 'Configure a SWG policy template',
+            demo: false,
+            technologies: ['Confluence'],
+            description: "An end-user guide for configuring a Secure Web Gateway policy template in MyAryaka.",
+            categories: ['sec']
+        },
+        {
+            image: 'assets/images/aryakadocs.png',
+            link: 'https://docs.aryaka.com/space/TBW/8192076/ANAP+Insertion+Topology',
+            title: 'ANAP Insertion Topology',
+            demo: false,
+            technologies: ['Confluence'],
+            description: "A guide to install and deploy an Aryaka Network Access Point device.",
+            categories: ['hardware','featured']
+        },
+        {
+            image: 'assets/images/aryakadocs.png',
+            link: 'https://docs.aryaka.com/space/TBW/37027887/NGFW-SWG',
+            title: 'NGFW-SWG technical brief',
+            demo: false,
+            technologies: ['Confluence'],
+            description: "A technical deep dive on Aryaka's Next Generation Firewall - Secure Web Gateway offering.",
+            categories: ['sec']
+        },
+        {
+            image: 'assets/images/microCAT.png',
+            link: 'https://drive.google.com/file/d/16BFjiOCrwePjDJTjuMW3QOhPto2fkcy1/view?usp=sharing',
+            title: 'Sea-Bird MicroCAT deployment guide',
+            demo: false,
+            technologies: [],
+            description: "A guide for deploying a Seabird Scientific MicroCAT (an oceanographic instrument used to measure temperature and salinity).",
+            categories: ['hardware']
+        },
         {
             image: 'assets/images/B call.jpg',
             link: 'https://github.com/alrice12/Bm-Bcall-Detector/wiki',
@@ -135,51 +180,6 @@ let render_projects = (slug) => {
             technologies: ['MATLAB', 'Adobe Illustrator'],
             description: "Four figures created for scientific publications.",
             categories: ['figures']
-        },
-        {
-            image: 'assets/images/MHP.png',
-            link: 'https://docs.aryaka.com/space/KNOW/136773659/Getting+Started+with+Aryaka+Unified+SASE+as+a+Service',
-            title: 'SASE getting started guide',
-            demo: false,
-            technologies: ['Confluence'],
-            description: "An end-user guide for getting started with Aryaka's security offering.",
-            categories: ['sec', 'featured']
-        },
-        {
-            image: 'assets/images/MHP.png',
-            link: 'https://docs.aryaka.com/space/KNOW/31031569/Configure+a+Secure+Web+Gateway+policy+template',
-            title: 'Configure a SWG policy template',
-            demo: false,
-            technologies: ['Confluence'],
-            description: "An end-user guide for configuring a Secure Web Gateway policy template in MyAryaka.",
-            categories: ['sec']
-        },
-        {
-            image: 'assets/images/aryakadocs.png',
-            link: 'https://docs.aryaka.com/space/TBW/8192076/ANAP+Insertion+Topology',
-            title: 'ANAP Insertion Topology',
-            demo: false,
-            technologies: ['Confluence'],
-            description: "A guide to install and deploy an Aryaka Network Access Point device.",
-            categories: ['hardware','featured']
-        },
-        {
-            image: 'assets/images/aryakadocs.png',
-            link: 'https://docs.aryaka.com/space/TBW/37027887/NGFW-SWG',
-            title: 'NGFW-SWG technical brief',
-            demo: false,
-            technologies: ['Confluence'],
-            description: "A technical deep dive on Aryaka's Next Generation Firewall - Secure Web Gateway offering.",
-            categories: ['sec']
-        },
-        {
-            image: 'assets/images/microCAT.png',
-            link: 'https://drive.google.com/file/d/16BFjiOCrwePjDJTjuMW3QOhPto2fkcy1/view?usp=sharing',
-            title: 'Sea-Bird MicroCAT deployment guide',
-            demo: false,
-            technologies: [],
-            description: "A guide for deploying a Seabird Scientific MicroCAT (an oceanographic instrument used to measure temperature and salinity).",
-            categories: ['hardware']
         },
     ]
 
