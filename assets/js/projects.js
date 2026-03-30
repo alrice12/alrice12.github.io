@@ -21,17 +21,17 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/MHP.png',
-            link: 'https://docs.aryaka.com/space/KNOW/31031569/Configure+a+Secure+Web+Gateway+policy+template',
-            title: 'Configure a SWG policy template',
+            link: 'https://docs.aryaka.com/space/KNOW/31031569/Configure+a+Secure+Web+Gateway+ruleset',
+            title: 'Configure a SWG ruleset',
             demo: false,
             technologies: ['Confluence'],
-            description: "An end-user guide for configuring a Secure Web Gateway policy template in MyAryaka.",
+            description: "An end-user guide for configuring Secure Web Gateway rules in MyAryaka.",
             categories: ['sec']
         },
         {
             image: 'assets/images/aryakadocs.png',
-            link: 'https://docs.aryaka.com/space/TBW/8192076/ANAP+Insertion+Topology',
-            title: 'ANAP Insertion Topology',
+            link: 'https://docs.aryaka.com/space/KNOW/1299808557/ANAP+insertion+topology',
+            title: 'ANAP insertion topology',
             demo: false,
             technologies: ['Confluence'],
             description: "A guide to install and deploy an Aryaka Network Access Point device.",
@@ -39,11 +39,11 @@ let render_projects = (slug) => {
         },
         {
             image: 'assets/images/aryakadocs.png',
-            link: 'https://docs.aryaka.com/space/TBW/37027887/NGFW-SWG',
-            title: 'NGFW-SWG technical brief',
+            link: 'https://docs.aryaka.com/space/KNOW/1275691047/CASB',
+            title: 'CASB',
             demo: false,
             technologies: ['Confluence'],
-            description: "A technical deep dive on Aryaka's Next Generation Firewall - Secure Web Gateway offering.",
+            description: "An overview of Aryaka's Cloud Access Security Broker offering.",
             categories: ['sec']
         },
         {
